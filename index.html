@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <link rel="stylesheet" href="navigation.css">
+</head>
+<body>
+    <div id="mainbox" onclick="openfunction()">&#9776</div>
+    <div id="menu" class="sidemenu">
+
+        <a href="#">Home</a>
+        <a href="#">Gallery</a>
+        <a href="#">contact</a>
+        <a href="#">Feedback</a>
+        <a href="#" class="closebtn" onclick="closefunction()">&times;</a>
+
+    </div>
+    <script>
+        function openfunction(){
+            document.getElementById('menu').style.width='300px'
+        }
+        function closefunction(){
+            document.getElementById('menu').style.width='0px'
+        }
+    </script>
+</body>
+</html>

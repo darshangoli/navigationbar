@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif;
+    background-color: bisque;
+}
+.sidemenu{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 0px;
+    background-color: #222;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 50px;
+    transition: 0.2s;
+}
+.sidemenu a{
+    padding-top: 50px;
+    padding-left: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #999;
+    display: block;
+}
+.sidemenu a:hover{
+    color: white;
+}
+.sidemenu .closebtn{
+    position: absolute;
+    top: -45px;
+    right: 25px;
+    font-size: 46px;
+    margin-left: 32px;
+}
+#mainbox{
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    font-size: 36px;
+    cursor: pointer;
+}
+#mainbox:hover{
+    transform: scale(1.1);
+}
